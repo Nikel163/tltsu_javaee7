@@ -9,7 +9,7 @@ import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 import java.util.Set;
 
-@Entity(name = "Course")
+@Entity
 @Data
 @Table(name = "courses")
 @NoArgsConstructor
